@@ -22,6 +22,10 @@ html {
 	height: auto;
 }
 
+.slick-dots{
+  margin-left:-18% !important;
+  width: 600px !important;
+}
 
 input {
   margin-bottom: 1.5rem;
@@ -290,4 +294,70 @@ input[type=checkbox]:focus + label {
     right: 0;
     top: 0;
     z-index: 99999;
+}
+
+@media screen and (max-width: 375px){
+  .slick-list{
+    margin-top:5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe{
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .slick-dots{
+    margin-left: 20% !important;
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  iframe{
+    width: 100% !important;
+    height: 200px !important;
+  }
+   .slick-dots{
+    margin-left: 5% !important;
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  iframe{
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .slick-dots{
+    margin-left: 50% !important;
+    width: 20% !important;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  iframe{
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+  .slick-dots{
+  margin-left:200000px !important;
+  width: 250px !important;
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+  iframe{
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+  .slick-dots{
+  margin-left:-18% !important;
+  width: 500px !important;
+}
+
 }
